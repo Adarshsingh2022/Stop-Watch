@@ -1,0 +1,77 @@
+body{
+    background-color: #1d1d1d;
+  }
+  
+  .wrapper{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    margin: auto;
+    width: 300px;
+    height: 50px;
+  }
+  
+  #start-stop{
+    float: left;
+  }
+  
+  #reset-round{
+    float: right;
+  }
+  
+  .tile{
+    border: none;
+    display: block;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    -webkit-box-shadow: inset 0px 0px 1px #FFFFCC;
+    -moz-box-shadow: inset 0px 0px 1px #FFFFCC;
+    -o-box-shadow: inset 0px 0px 1px #FFFFCC;
+    box-shadow: inset 0px 0px 1px #FFFFCC;
+  }
+  
+  .action-button{
+    cursor: pointer;
+    color: white;
+    font-size: 1em;
+    padding: 5px;
+    margin: 0;
+    margin-top: 10px;
+    width: 70px;
+  }
+  
+  .action-button:hover{
+    outline: #999999 solid 1px;
+  }
+  
+  .start-button{
+    background-color: #179fa9;
+    border-radius: 20px;
+  }
+  
+  .round-button{
+    background-color: #507faf;
+    border-radius: 20px;
+  }
+  
+  .reset-button, .stop-button{
+    background-color: #d45959; 
+    border-radius: 20px;
+  }
+  
+  #watch-dial{
+    background-color: #222020;
+    font-size: 2.5em;
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  
+
+ 
